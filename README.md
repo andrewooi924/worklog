@@ -10,6 +10,10 @@ Run [supabase-holidays.sql](supabase-holidays.sql) in the Supabase SQL editor to
 
 The supplied dates exclude state-only holidays because the app does not yet collect a user's state. Add future or state-specific holidays only through the Supabase SQL editor; regular users have read-only access.
 
+## Password reset
+
+The sign-in dialog supports password-reset emails. In Supabase Auth, add the deployed Worklog URL to **Authentication → URL Configuration → Redirect URLs**; the reset link returns the user to that URL to choose a new password.
+
 For local development, any static server works, for example:
 
 ```sh
