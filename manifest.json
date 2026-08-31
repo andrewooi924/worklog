@@ -1,0 +1,10 @@
+{
+  "name": "Worklog — Time tracker",
+  "short_name": "Worklog",
+  "description": "A simple personal work-hours tracker.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f7f7f5",
+  "theme_color": "#20231f",
+  "icons": []
+}
